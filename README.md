@@ -37,3 +37,9 @@
   - 스레드가 생성될 시 각 스레드마다 하나의 스택을 가진다.
   - 스택에서 Heap 영역의 객체를 참조할 수 있다.
 ---
+### 3. Is java 100% OOP language? (Yes/No)? How to do you prove it?
+---
+#### NO
+- 자바는 `int`, `float`, `char` 와 같은 객체가 아닌 primitive data type을 사용하기 때문이다.
+- 100% OOP language가 되려면 객체가 아닌 primitive data type을 사용하면 안된다.
+---
