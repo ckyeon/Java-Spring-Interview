@@ -27,7 +27,6 @@
   - 클래스의 구성요소인 정적 변수, 생성자, 메소드, 멤버 변수를 저장한다.
   - 클래스와 인터페이스들의 런타임 상수 풀이다.
    
-   
 - Heap 영역
   - 동적으로 생성된 객체를 저장한다.
   - 생성된 객체를 참조하는 변수가 사라지면 Garbage Collector에 의해 할당이 해제된다.
@@ -42,4 +41,9 @@
 #### NO
 - 자바는 `int`, `float`, `char` 와 같은 객체가 아닌 primitive data type을 사용하기 때문이다.
 - 100% OOP language가 되려면 객체가 아닌 primitive data type을 사용하면 안된다.
+---
+### 4, Why do we have difference memories like heap memory, stack memory, dynamic memory?
+---
+#### 1. 프로세스를 실행할 때 얼만큼의 메모리가 필요할지 모르는 상태이다.
+#### 2. 1번의 이유로 실행할 프로세스의 코드가 최대로 사용할 수 있는 메모리를 계산하여 미리 할당해 놓는 것은 비효율적이다.
 ---
